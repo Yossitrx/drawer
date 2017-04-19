@@ -1,0 +1,119 @@
+/*Submitters: mor kasus 305633505 xand yossi azoulay 301848289*/
+body {
+    margin : 0;
+    padding: 0;
+}
+
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#myCanvas {
+    background-color: #c6cdc7;
+}
+
+.canvas_board {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.buttonDiv{
+   float: left
+}
+
+.shapes{
+    margin-left: 20px;
+}
+
+.shape_lines{
+    position: relative;
+    width: 88%;
+    margin-top: 6px;
+
+}
+
+.shapes div button {
+    width: 60px;
+    height: 60px;
+    box-shadow: 3px 4px 2px #888888;
+    margin-left: 20px;
+    font-weight: 700;
+    margin-top: 20px; 
+}
+.colors{
+    margin-left: 20px;
+    margin-bottom: 200px;
+}
+.colors div button {
+    width: 60px;
+    height: 60px;
+    box-shadow: 3px 4px 2px #888888;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.title{
+    position: relative;
+    top: 10px;
+    width: 100px;
+    left: 35px;
+    font-size: 28px;
+    font-family: fantasy;
+}
+
+.titleColor{
+    width: 100px;
+    position: relative;
+    left: 40px;
+    font-size: 28px;
+    font-family: fantasy;
+}
+
+.hr{
+    width: 60%;
+}
+.clear{
+    clear: both;
+}
+.red{
+    color: white;
+    background-color: rgba(255, 0, 0, 0.68);
+}
+.blue{
+    color: white;
+    background-color: rgba(0, 114, 255, 0.68);
+}
+.green{
+    color: white;
+    background-color: rgba(44, 165, 42, 0.55);
+}
+.black{
+    color: white;
+    background-color: rgba(11, 12, 11, 0.75);
+}
+.clearCanvas{
+    margin-top: 10px;
+    width: 80px;
+    height: 45px;
+    margin-left: 20px;
+}
+
+.menuContainer {
+    display: inline-block;
+    margin-top: 20px;
+}

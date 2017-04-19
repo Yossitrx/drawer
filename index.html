@@ -1,0 +1,40 @@
+<!-- Submitters: mor kasus 305633505 xand yossi azoulay 301848289 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div>
+  <div>
+    <canvas id="myCanvas" height="550" width="900" style="border:3px solid #000000;"></canvas>
+    <div class="menuContainer">
+      <div class="shapes">
+        <div class="title" ><span>Shapes:</span></div>
+        <div class="buttonDiv"><button onclick="changeMode(0)">Line</button></div>
+        <div class="buttonDiv"><button onclick="changeMode(1)">Circle</button></div>
+        <div class="buttonDiv"><button onclick="changeMode(2)">Shape<input class="shape_lines" id="shape_lines" value="3" min="3" type="number"> </button></div>
+        <div class="buttonDiv"><button onclick="changeMode(3)">Curve<input class="shape_lines" id="curve_lines" value="100" min="1" type="number"></button></div>
+      </div>
+      <div class="clear"></div>
+      <br>
+      <br>
+      <div class="colors">
+        <div class="titleColor" ><span>colors:</span></div>
+        <div class="buttonDiv"><button class="red" onclick="changeColor('#f6192e')">Red</button></div>
+        <div class="buttonDiv"><button class="blue" onclick="changeColor('#007bc8')">Blue</button></div>
+        <div class="buttonDiv"><button class="green" onclick="changeColor('#5c8b52')">Green</button></div>
+        <div class="buttonDiv"><button class="black" onclick="changeColor('#000000')">Black</button></div>
+      </div>
+      <div class="clear"></div>
+      <button class="clearCanvas" onclick="clearCanvas()">Clear</button>
+    </div>
+
+</div>
+
+<footer>Copyright &copy; Yossi & Mor</footer>
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
